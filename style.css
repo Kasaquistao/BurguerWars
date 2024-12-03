@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    display: flex;
+}
+
+body {
+    background-color: #000000;
+}
+
+/*Banner*/
+.banner {
+    justify-content: space-between;
+    background-color: #0D0D0D;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.banner02 {
+    width: 270px;
+    justify-content: space-between;
+}
+
+.titulo {
+    padding-top: 15px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.link {
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+/*faixa*/
+.faixa {
+    padding-top: 100px;
+    padding-left: 100px;
+    justify-content: space-between;
+    margin: 20px;
+    background-image: url(imgs/faixa_v3_darth.png);
+    background-size: 100%;
+    border-radius: 70px;
+}
+
+.faixa_texto {
+    padding-top: 50px;
+    display: block;
+    height: 600px;
+}
+
+.faixa_h3 {
+    margin-left: 130px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 250px;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.faixa_h2 {
+    font-size: 60px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.faixa_p {
+    font-size: 30px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.faixa_link {
+    padding: 10px 20px;
+    background-color: tomato;
+    margin: 200px;
+    border-radius: 30px;
+}
+
+.faixa_img {
+    display: block;
+    height: 400px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.faixa_img_h2 {
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 30px;
+    width: 260px;
+    margin-left: 120px;
+}
+
+/*Triplos*/
+.triplos {
+    display: flex;
+}
+
+.triplos_01 {}
+
+.triplos_02 {
+    display: block;
+}
