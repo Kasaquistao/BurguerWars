@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D0D0D;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+.banner01 {
+    display: flex;
+    align-items: center;
+}
+
+.banner02 {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+}
+
+.titulo {
+    margin-left: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.link {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: tomato;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+/* Faixa */
+.faixa {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    background-image: url(imgs/faixa_v3_darth.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.faixa_texto {
+    flex: 1;
+    padding-right: 20px;
+    max-width: 500px;
+}
+
+.faixa_h3 {
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.faixa_h2 {
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.faixa_p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.faixa_link {
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.faixa_img {
+    text-align: center;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.faixa_img img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.faixa_img_h2 {
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 30px;
+    width: 260px;
+    margin: 20px auto 0;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        background-color: #0D0D0D;
+        padding: 20px;
+        padding-right: 40px;
+    }
+
+    .faixa {
+        display: block;
+        justify-content: space-between;
+        padding: 50px 30px;
+        background-image: url(imgs/faixa_v3_darth.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+/* Triplos */
+.triplos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.triplos_singular,
+.duplos_01,
+.duplos_02 {
+    background-color: #0D0D0D;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    flex: 1;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.triplos_singular {
+    background-image: url(imgs/triplos_burguer_01.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.duplos_01 {
+    background-image: url(imgs/triplo_vegano.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.duplos_02 {
+    background-image: url(imgs/triplos_sucos.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.triplos_02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .faixa {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .banner02 {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faixa_img_h2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+/* Créditos */
+.creditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin: 0;
+    ;
+}
