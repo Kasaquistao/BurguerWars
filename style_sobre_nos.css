@@ -31,47 +31,6 @@ body {
     background-color: #0D0D0D;
 }
 
-.banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--cor-de-fundo);
-    padding: 20px 40px;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.banner01 {
-    display: flex;
-    align-items: center;
-}
-
-.banner01 .logo {
-    height: 60px;
-    margin-right: 20px;
-}
-
-.banner01 .titulo {
-    font-size: 1.8em;
-    margin: 0;
-}
-
-.banner02 {
-    display: flex;
-    gap: 20px;
-}
-
-.banner02 .link {
-    color: var(--cor-branca);
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-.banner02 .link:hover {
-    color: var(--cor-realce);
-}
-
 .sobre-texto {
     width: 50%;
     font-family: 'Arial', sans-serif;
